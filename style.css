@@ -1,5 +1,18 @@
+body {
+  font-family: sans-serif;
+  font-size: 0.75em;
+}
+
 input {
   outline: none;
+  margin: 10em auto 1em;
+  display: block;
+  width: 150px;
+}
+
+a {
+  display: block;
+  text-align: center;
 }
 
 #phone {
