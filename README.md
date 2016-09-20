@@ -1,7 +1,7 @@
 # phonenumber-formatter [![npm version](https://badge.fury.io/js/phonenumber-formatter.svg)](https://badge.fury.io/js/phonenumber-formatter)
 A simple phonenumber formatter for HTML inputs. This package is meant for the front-end, so browserify or webpack will be necessary. It also only currently supports 10-digit numbers.
 
-[Live example]()
+[Live example](https://renolc.github.io/phonenumber-formatter/)
 
 ### Installation
 
