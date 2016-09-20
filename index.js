@@ -1,4 +1,7 @@
 module.exports = function (el) {
+  el.pattern = '\\(\\d{3}\\) \\d{3}-\\d{4}'
+  el.maxLength = 14
+
   el.onkeyup = function (e) {
     if ([
       'ArrowLeft', 'ArrowRight',
