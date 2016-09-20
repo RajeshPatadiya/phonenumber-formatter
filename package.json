@@ -1,0 +1,21 @@
+{
+  "name": "phonenumber-formatter",
+  "version": "0.0.1",
+  "description": "A simple phonenumber formatter for HTML inputs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "phone",
+    "phonenumber",
+    "telephone",
+    "formatter",
+    "simple"
+  ],
+  "author": "Phillip Gibson <gibson.phillip.j@gmail.com>",
+  "license": "MIT"
+}
