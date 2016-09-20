@@ -1,22 +1,15 @@
 {
   "name": "phonenumber-formatter",
-  "version": "0.0.1",
-  "description": "A simple phonenumber formatter for HTML inputs",
-  "main": "index.js",
-  "keywords": [
-    "phone",
-    "phonenumber",
-    "telephone",
-    "formatter",
-    "simple"
-  ],
-  "author": "Phillip Gibson <gibson.phillip.j@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/renolc/phonenumber-formatter"
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "browserify src/app.js -o bundle.js"
   },
-  "bugs": {
-    "url": "https://github.com/renolc/phonenumber-formatter/issues"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "phonenumber-formatter": "latest"
   }
 }

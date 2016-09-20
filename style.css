@@ -1,0 +1,12 @@
+input {
+  outline: none;
+}
+
+#phone {
+  transition: 200ms all;
+}
+
+#phone:invalid {
+  border-color: red;
+  box-shadow: 0 0 10px #bc8f8f;
+}
