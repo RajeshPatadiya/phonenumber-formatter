@@ -1,6 +1,6 @@
 {
   "name": "phonenumber-formatter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A simple phonenumber formatter for HTML inputs",
   "main": "index.js",
   "keywords": [
