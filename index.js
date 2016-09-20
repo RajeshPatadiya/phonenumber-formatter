@@ -7,7 +7,8 @@ module.exports = function (el, keyupFn) {
       'ArrowLeft', 'ArrowRight',
       'ArrowUp', 'ArrowDown',
       'Meta', 'Alt',
-      'Control', 'Shift'
+      'Control', 'Shift',
+      'Backspace'
     ].indexOf(e.key) !== -1) return
 
     var formatted = e.target.value.replace(/[^\d]/g, '')
