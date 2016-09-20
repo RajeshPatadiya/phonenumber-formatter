@@ -22,3 +22,7 @@ var formatPhonenumbers = require('phonenumber-formatter')
 
 formatPhonenumbers(document.getElementById('phonenumber'))
 ```
+
+`formatPhonenumbers` takes up to 2 arguments:
+1. the HTML input element to format
+2. a function to run after the formatting completes

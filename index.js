@@ -1,4 +1,4 @@
-module.exports = function (el) {
+module.exports = function (el, keyupFn) {
   el.pattern = '\\(\\d{3}\\) \\d{3}-\\d{4}'
   el.maxLength = 14
 
@@ -29,5 +29,7 @@ module.exports = function (el) {
     }
 
     e.target.value = formatted
+
+    keyupFn(e)
   }
 }
